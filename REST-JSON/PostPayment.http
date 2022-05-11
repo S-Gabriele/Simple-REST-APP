@@ -1,0 +1,8 @@
+POST  http://localhost:3000/api/payments 
+content-type: application/json
+
+{
+    "sender":"John",
+    "receiver":"Smith",
+    "amount":"94.65"
+}

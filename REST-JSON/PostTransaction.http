@@ -1,0 +1,12 @@
+Post http://localhost:3000/api/transactions 
+content-type: application/json
+
+{
+    "payment":{
+        "id":"1"
+    },
+    "accepted":"true",
+    "description":"purchase dress"
+}
+
+
